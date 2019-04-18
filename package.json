@@ -1,0 +1,31 @@
+{
+  "name": "Cthulhu",
+  "version": "1.0.0",
+  "description": "GUI untuk parsing data. Sebagai Tubes APTRG",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "~4.16.4",
+    "serialport":"~7.1.4",
+    "socket.io": "~2.2.0",
+    "three": "~0.103.0"
+  },
+  "devDependencies": {
+    "nodemon": "~1.18.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordiyapz/cthulhu.git"
+  },
+  "keywords": ["Node", "Javascript", "3D", "Parsing"],
+  "author": "Jordi Yaputra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordiyapz/cthulhu/issues"
+  },
+  "homepage": "https://github.com/jordiyapz/cthulhu#readme"
+}
